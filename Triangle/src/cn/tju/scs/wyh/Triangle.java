@@ -2,8 +2,8 @@ package cn.tju.scs.wyh;
 
 public class Triangle {
 	public static int isTri(int a, int b, int c){
-		int sum;
-		double pow;
+		int sum = 0;
+		double pow = 0;
 		int max = Math.max(a, b);
 		max = Math.max(max, c);
 		if(max == a){
